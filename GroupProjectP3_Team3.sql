@@ -117,16 +117,16 @@ CREATE SEQUENCE visit_id_seq START WITH 601;
 
 
 --Insterting data
-INSERT INTO PARK VALUES (park_id_seq.NEXTVAL, 'Evergreen Park', 'Colorado', 5000, 1955);
-INSERT INTO PARK VALUES (park_id_seq.NEXTVAL, 'Lakeside Reserve', 'Utah', 3200, 1972);
+INSERT INTO PARK VALUES (park_id_seq.NEXTVAL, 'Yellowstone', 'Montana', 5000, 1955);
+INSERT INTO PARK VALUES (park_id_seq.NEXTVAL, 'Grand Teton', 'Wyoming', 3200, 1972);
 
 
-INSERT INTO TRAIL VALUES (trail_id_seq.NEXTVAL, 'Summit Trail', 4.5, 'Hard', 101);
-INSERT INTO TRAIL VALUES (trail_id_seq.NEXTVAL, 'Lake Loop', 2.1, 'Easy', 102);
+INSERT INTO TRAIL VALUES (trail_id_seq.NEXTVAL, 'Mammoth Terraces', 2.2, 'Easy', 101);
+INSERT INTO TRAIL VALUES (trail_id_seq.NEXTVAL, 'Teton Crest Trail', 40, 'Hard', 102);
 
 
-INSERT INTO RANGER VALUES (ranger_id_seq.NEXTVAL, 'Jack', 'Benson', DATE '2021-05-10', 101, 1);
-INSERT INTO RANGER VALUES (ranger_id_seq.NEXTVAL, 'Maria', 'Lopez', DATE '2020-03-14', 102, 0);
+INSERT INTO RANGER VALUES (ranger_id_seq.NEXTVAL, 'Paul', 'Blart', DATE '2021-05-10', 101, 1);
+INSERT INTO RANGER VALUES (ranger_id_seq.NEXTVAL, 'The', 'Rock', DATE '2020-03-14', 102, 0);
 
 
 INSERT INTO VISITOR VALUES (visitor_id_seq.NEXTVAL, 'George', 'Washington', 'gwash@yahoo.com', 1);
